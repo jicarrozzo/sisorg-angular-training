@@ -28,6 +28,6 @@ Desde VSCode, abren una instancia de la terminal (Ctrl+J), y corren el siguiente
 
   para levantar el server (y el browser en caso de --open).
 
-  #Exitos y happy coding!!!!
+  # Exitos y happy coding!!!!
 
 
