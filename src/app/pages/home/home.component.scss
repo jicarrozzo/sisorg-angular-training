@@ -1,0 +1,17 @@
+.md-fab-bottom-right {
+	position: fixed !important;
+	bottom: 15px;
+	right: 15px; /* Add this and change value to set the margin you want */
+}
+
+.md-fab-top-right {
+	position: fixed !important;
+	top: 27px;
+	right: 15px; /* Add this and change value to set the margin you want */
+}
+
+.listatickets {
+	height: calc(100vh - 200px);
+	overflow-y: auto;
+	overflow-x: hidden;
+}

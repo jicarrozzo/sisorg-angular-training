@@ -1,0 +1,52 @@
+
+<mat-card *ngIf="ticket" class=" list-group-item-action m-1 p-2">
+  <mat-card-header (click)="select()" >
+    <div class="container-fluid">
+      
+      <div class="row">
+        <div class="col-10">
+          <h5 class="mb-1">{{ ticket.asunto }}</h5>
+        </div>
+        <div class="col-2 text-end">
+          <small>{{ ticket.numero }}</small>
+        </div>
+      </div>      
+
+      <div class="row">
+        <div class="col-12">
+          <p class="mb-1">{{ ticket.descripcion | slice:0:50 }}</p>
+        </div>
+        <div class="col-12 text-right">
+          <small>{{ ticket.fecha | date }}</small>
+        </div>
+      </div>   
+    </div>
+
+  </mat-card-header>
+  <mat-card-actions class="text-right" *ngIf="selected">
+    <button mat-button (click)="edit()">Editar</button>
+    <button mat-button (click)="delete()">Eliminar</button>
+  </mat-card-actions>
+  <!-- <mat-card-actions class="text-right" *ngIf="selected">
+    <button mat-button routerLink="/detail">Editar</button>
+    <button mat-button (click)="delete()">Eliminar</button>
+  </mat-card-actions> -->
+</mat-card>
+<!-- <div class="card list-group-item-action m-1"  *ngIf="ticket" (click)="select()">
+  <div class="card-body p-2">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ ticket.asunto }}</h5>
+      <small>{{ ticket.numero }}</small>
+    </div>
+    <p class="mb-1">{{ ticket.descripcion | slice:0:50 }}</p>
+    <small class="float-right">{{ ticket.fecha | date }}</small>
+  </div>
+</div>  -->
+<!-- <a class="list-group-item list-group-item-action" *ngIf="ticket">
+  <div class="d-flex w-100 justify-content-between">
+    <h5 class="mb-1">{{ ticket.asunto }}</h5>
+    <small>{{ ticket.numero }}</small>
+  </div>
+  <p class="mb-1">{{ ticket.descripcion }}</p>
+  <small class="float-right">{{ ticket.fecha | date }}</small>
+</a> -->
