@@ -28,6 +28,20 @@ Desde VSCode, abren una instancia de la terminal (Ctrl+J), y corren el siguiente
 
   para levantar el server (y el browser en caso de --open).
 
+# Extensiones de VS Code
+Les dejo una lista de las extensiones que yo uso, si tienen otras que sean copadas avisen!
+Las buscan en el tab de *Extensions* de VSCode por el nombre:
+* Prettier Now
+*	Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+*	Angular Language Service
+*	Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+*	GitLens — Git supercharged
+*	JavaScript (ES6) code snippets
+*	JSON to TS
+*	Material Icon Theme
+*	Paste JSON as Code
+
+
   # Exitos y happy coding!!!!
 
 
